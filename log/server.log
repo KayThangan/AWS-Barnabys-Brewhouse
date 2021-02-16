@@ -1,0 +1,1642 @@
+2021-02-16 15:56:23,657 - werkzeug - WARNING -  * Debugger is active!
+2021-02-16 15:56:23,664 - werkzeug - INFO -  * Debugger PIN: 217-168-341
+2021-02-16 15:56:25,629 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:25] "[32mGET / HTTP/1.1[0m" 302 -
+2021-02-16 15:56:25,910 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:25] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-16 15:56:26,035 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:26] "[37mGET /static/css/styles.css HTTP/1.1[0m" 200 -
+2021-02-16 15:56:36,509 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:36] "[32mPOST /addBrewProcess HTTP/1.1[0m" 302 -
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:36,546 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:36,547 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:36,547 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:36,547 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:36,547 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:36,547 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:36,547 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:36,547 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:36,647 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:36,648 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:36,648 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:36,649 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:36,649 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:36,649 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:36,649 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:36,649 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:36,649 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:36,723 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:36] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-16 15:56:36,754 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:36,754 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:36,755 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:36,755 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:36,755 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:36,755 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:36,755 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:36,756 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:36,856 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:36,856 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:36,856 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:36,856 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:36,856 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:36,857 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:36,961 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:36,961 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:36,962 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:36,962 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:36,962 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:36,963 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:36,963 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:36,963 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:36,963 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:36,963 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,064 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,065 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,066 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,066 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,066 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,066 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,066 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,066 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,066 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,170 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,170 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,170 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,171 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,171 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,171 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,171 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,171 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,172 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,172 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,172 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,172 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,173 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,173 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,173 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,278 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,278 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,278 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,279 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,279 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,279 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,279 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,279 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,382 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,383 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,383 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,383 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,383 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,384 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,384 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,384 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,384 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,384 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,384 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,384 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,385 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,385 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,385 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,486 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,486 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,486 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,487 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,487 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,487 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,487 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,488 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,488 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,488 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,488 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,488 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,488 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,488 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,488 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,590 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,591 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,592 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,592 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,592 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,592 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,593 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,593 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,593 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,593 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,694 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,694 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,694 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,695 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,695 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,695 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,696 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,696 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,696 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,696 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,799 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,799 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,799 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,799 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,799 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,800 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,800 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,800 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,800 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,800 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,800 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,800 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,800 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,801 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,801 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:37,906 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:37,906 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:37,906 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,906 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:37,906 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:37,907 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:37,907 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:37,907 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:37,908 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:37,908 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:37,908 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:37,908 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:37,908 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:37,908 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:37,908 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,012 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,013 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,013 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,014 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,014 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,014 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,014 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,014 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,014 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,117 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,117 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,117 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,117 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,117 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,118 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,118 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,118 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,118 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,118 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,118 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,118 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,118 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,119 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,119 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,219 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,219 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,219 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,220 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,220 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,220 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,220 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,220 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,221 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,221 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,321 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,321 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,321 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,322 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,322 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,322 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,322 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,323 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,323 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,323 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,425 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,425 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,425 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,425 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,426 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,426 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,426 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,426 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,426 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,426 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,426 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,426 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,427 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,427 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,427 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,529 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,529 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,529 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,529 - transitions.core - DEBUG - Transition condition failed: has_cooks_ingredients_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,529 - transitions.core - DEBUG - Initiating transition from state start to state incomplete...
+2021-02-16 15:56:38,530 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,530 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,530 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,530 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,530 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,531 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,531 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,531 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,531 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,532 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,633 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,633 - transitions.core - DEBUG - Initiating transition from state start to state hot_brew...
+2021-02-16 15:56:38,633 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,634 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,634 - transitions.core - DEBUG - Exiting state start. Processing callbacks...
+2021-02-16 15:56:38,634 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,634 - transitions.core - INFO - Finished processing state start exit callbacks.
+2021-02-16 15:56:38,634 - transitions.core - DEBUG - Entering state hot_brew. Processing callbacks...
+2021-02-16 15:56:38,634 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,634 - transitions.core - INFO - Finished processing state hot_brew enter callbacks.
+2021-02-16 15:56:38,635 - transitions.core - INFO - Executed callback 'cooks_ingredients_process_complete'
+2021-02-16 15:56:38,635 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,635 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,736 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,736 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:38,736 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,738 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,738 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:38,738 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,738 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,738 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:38,738 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,739 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:38,739 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,739 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,739 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,739 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,739 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,744 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:38] "[32mPOST /continueProcess/Organic%20Dunkel:112:2 HTTP/1.1[0m" 302 -
+2021-02-16 15:56:38,842 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,843 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:38,843 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,843 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,843 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:38,844 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,844 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,844 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,844 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,844 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,945 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:38,945 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:38,945 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,945 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:38,945 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:38,946 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:38,946 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:38,946 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:38,946 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:38,946 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:38,946 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:38,947 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:38,947 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:38,947 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:38,947 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:38,959 - werkzeug - INFO - 127.0.0.1 - - [16/Feb/2021 15:56:38] "[37mGET /home HTTP/1.1[0m" 200 -
+2021-02-16 15:56:39,047 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,047 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,047 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,047 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,047 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,048 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,048 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,048 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,048 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,048 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,151 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,151 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,151 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,151 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,152 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,152 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,152 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,256 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,256 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,257 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,257 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,257 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,257 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,257 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,258 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,258 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,258 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,258 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,258 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,258 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,258 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,258 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,361 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,362 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,363 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,363 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,363 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,363 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,363 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,364 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,364 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,464 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,465 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,465 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,466 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,466 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,466 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,466 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,466 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,467 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,467 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,467 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,467 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,467 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,468 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,468 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,572 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,573 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,573 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,573 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,573 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,573 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,573 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,573 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,573 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,574 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,674 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,674 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,674 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,675 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,675 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,675 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,675 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,675 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,675 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,675 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,676 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,676 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,676 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,676 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,676 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,778 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,779 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,779 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,779 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,779 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,779 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,779 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,779 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,779 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,779 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,880 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,881 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,881 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,881 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,881 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,882 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,882 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,882 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:39,984 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:39,985 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:39,985 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:39,985 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:39,985 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:39,985 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:39,985 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:39,985 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:39,986 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,087 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,088 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,089 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,089 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,089 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,089 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,089 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,089 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,089 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,190 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,190 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,190 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,191 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,191 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,191 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,191 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,192 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,192 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,192 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,292 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,293 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,293 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,293 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,293 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,293 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,293 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,293 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,293 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,293 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,398 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,398 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,398 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,399 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,399 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,399 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,399 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,399 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,399 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,399 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,400 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,400 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,400 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,400 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,401 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,506 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,506 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,506 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,506 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,506 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,507 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,507 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,507 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,507 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,507 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,608 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,608 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,608 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,609 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,609 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,609 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,609 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,609 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,609 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,609 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,610 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,610 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,610 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,610 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,610 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,715 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,715 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,715 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,715 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,715 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,716 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,716 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,716 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,717 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,717 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,717 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,717 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,717 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,717 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,717 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,818 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,818 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,818 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,818 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,818 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,819 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,819 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,819 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,819 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,819 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,819 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,819 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,819 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,820 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,820 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:40,920 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:40,920 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:40,920 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,921 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:40,921 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:40,921 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:40,921 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:40,921 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:40,921 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:40,921 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:40,922 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:40,922 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:40,922 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:40,922 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:40,922 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,023 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,024 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,024 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,024 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,024 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,024 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,024 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,024 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,024 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,126 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,126 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,126 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,126 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,127 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,127 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,127 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,127 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,127 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,127 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,127 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,127 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,127 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,128 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,128 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,232 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,232 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,232 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,233 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,233 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,233 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,233 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,233 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,233 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,234 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,234 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,234 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,234 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,234 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,234 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,335 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,335 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,336 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,336 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,336 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,337 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,337 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,337 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,337 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,337 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,437 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,438 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,438 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,439 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,439 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,439 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,439 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,439 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,439 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,540 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,541 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,542 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,542 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,542 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,542 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,542 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,542 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,542 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,542 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,646 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,647 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,647 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,647 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,647 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,647 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,647 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,647 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,647 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,648 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,752 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,752 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,753 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,753 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,753 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,754 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,754 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,754 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,754 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,754 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,855 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,855 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,856 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,856 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,857 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,857 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,857 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,857 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,857 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,857 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:41,960 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:41,960 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:41,961 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:41,961 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:41,961 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:41,962 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:41,962 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:41,962 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:41,962 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,067 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,067 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,067 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,068 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,068 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,068 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,069 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,069 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,069 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,069 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,172 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,173 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,173 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,174 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,174 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,174 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,174 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,174 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,174 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,277 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,278 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,278 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,278 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,278 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,278 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,278 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,278 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,278 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,382 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,382 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,382 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,382 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,382 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,383 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,383 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,383 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,383 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,383 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,383 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,383 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,383 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,384 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,387 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,488 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,489 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,489 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,489 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,490 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,490 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,490 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,490 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,490 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,590 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,590 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,591 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,591 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,592 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,592 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,592 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,592 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,592 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,593 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,593 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,593 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,594 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,594 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,594 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,695 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,695 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,695 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,695 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,696 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,696 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,696 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,696 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,696 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,696 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,697 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,697 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,697 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,697 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,697 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,798 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,799 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,800 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,800 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,800 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,800 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,800 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,801 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,801 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,801 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:42,902 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:42,902 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:42,902 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:42,903 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:42,903 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:42,903 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:42,903 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:42,903 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,004 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,004 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,004 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,004 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,004 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,005 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,005 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,005 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,005 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,005 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,006 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,006 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,006 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,006 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,006 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,108 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,108 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,108 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,108 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,109 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,109 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,109 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,109 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,109 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,109 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,110 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,110 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,110 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,110 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,110 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,215 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,215 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,216 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,216 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,216 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,217 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,217 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,217 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,217 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,217 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,319 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,319 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,319 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,319 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,320 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,320 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,320 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,320 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,320 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,320 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,320 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,320 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,321 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,321 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,321 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,422 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,422 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,422 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,422 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,423 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,423 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,423 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,523 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,524 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,524 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,525 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,525 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,525 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,525 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,525 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,525 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,526 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,526 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,526 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,526 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,527 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,527 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,629 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,629 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,630 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,630 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,631 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,631 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,631 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,631 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,631 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,631 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,734 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,734 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,734 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,734 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,734 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,735 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,735 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,735 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,735 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,735 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,839 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,840 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,840 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,841 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,841 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,841 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,841 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,841 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,842 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:43,946 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:43,946 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:43,947 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:43,948 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:43,948 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:43,948 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:43,948 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:43,948 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:43,948 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:43,948 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,049 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,049 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,050 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,050 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,050 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,050 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,050 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,051 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,051 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,051 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,051 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,051 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,051 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,052 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,052 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,156 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,156 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,156 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,157 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,157 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,157 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,157 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,157 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,157 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,157 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,158 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,158 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,158 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,158 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,158 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,259 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,259 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,259 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,260 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,260 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,260 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,260 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,260 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,260 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,260 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,261 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,261 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,261 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,261 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,261 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,364 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,365 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,366 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,366 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,366 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,366 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,366 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,366 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,366 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,366 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,467 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,468 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,469 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,469 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,469 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,469 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,469 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,469 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,469 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,469 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,570 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,570 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,570 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,571 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,571 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,571 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,571 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,571 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,571 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,571 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,572 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,572 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,572 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,572 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,572 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,675 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,676 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,677 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,677 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,677 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,677 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,677 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,677 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,678 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,783 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,783 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,784 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,784 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,784 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,784 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,784 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,784 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,884 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,885 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,885 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,886 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,886 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,886 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,886 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,886 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,887 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:44,991 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:44,992 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:44,993 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:44,993 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:44,993 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:44,993 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:44,993 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:44,993 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:44,994 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,094 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,094 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,094 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,094 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,095 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,095 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,095 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,095 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,095 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,096 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,096 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,096 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,096 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,096 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,096 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,200 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,201 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,202 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,202 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,202 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,202 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,202 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,202 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,202 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,303 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,303 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,303 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,304 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,304 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,304 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,304 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,304 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,305 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,305 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,305 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,305 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,305 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,306 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,306 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,407 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,407 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,407 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,408 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,408 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,408 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,408 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,408 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,408 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,409 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,409 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,409 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,409 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,409 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,409 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,510 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,510 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,510 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,510 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,510 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,511 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,511 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,511 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,511 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,511 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,511 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,511 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,512 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,512 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,512 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,613 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,613 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,613 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,614 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,614 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,614 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,614 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,615 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,615 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,615 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,615 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,615 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,615 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,615 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,615 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,717 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,717 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,717 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,717 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,718 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,718 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,718 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,718 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,718 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,718 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,718 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,718 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,719 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,719 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,719 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,819 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,820 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,821 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,821 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,821 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,821 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,821 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,821 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,822 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,822 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:45,925 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:45,925 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:45,925 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,925 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:45,926 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:45,926 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:45,926 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:45,926 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:45,926 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:45,926 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:45,926 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:45,927 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:45,927 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:45,927 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:45,927 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,028 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,029 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,029 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,029 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,029 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,029 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,029 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,029 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,029 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,030 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,133 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,133 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,133 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,134 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,134 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,134 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,134 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,134 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,134 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,134 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,135 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,135 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,135 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,135 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,136 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,236 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,236 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,236 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,236 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,236 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,237 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,237 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,237 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,237 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,237 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,340 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,340 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,340 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,340 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,341 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,341 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,341 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,341 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,341 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,442 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,443 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,443 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,443 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,443 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,443 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,444 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,444 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,444 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,444 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,444 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,444 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,444 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,444 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,445 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,545 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,546 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,546 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,546 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,547 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,547 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,547 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,547 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,547 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,651 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,651 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,651 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,651 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,651 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,755 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,756 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,756 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,756 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,756 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,756 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,757 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,860 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,861 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,861 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,861 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,861 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,861 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,861 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,861 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,861 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,862 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:46,963 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:46,963 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:46,963 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:46,964 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:46,964 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:46,964 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:46,964 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:46,964 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:46,965 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:46,965 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,065 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,066 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,067 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,067 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,067 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,067 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,067 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,067 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,067 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,169 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,170 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,170 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,170 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,170 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,170 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,171 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,171 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,171 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,171 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,171 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,171 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,171 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,171 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,172 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,273 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,274 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,275 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,275 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,275 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,275 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,275 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,275 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,275 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,275 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,377 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,377 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,378 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,379 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,379 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,379 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,379 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,379 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,379 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,379 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,480 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,481 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,481 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,481 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,481 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,481 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,481 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,482 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,482 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,582 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,583 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,583 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,583 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,584 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,584 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,584 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,584 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,584 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,584 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,584 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,584 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,585 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,585 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,585 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,689 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,689 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,690 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,690 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,690 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,690 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,691 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,691 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,691 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,691 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,691 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,691 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,691 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,691 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,692 - transitions.core - DEBUG - Executed machine finalize callbacks
+2021-02-16 15:56:47,792 - transitions.core - DEBUG - Executed machine preparation callbacks before conditions.
+2021-02-16 15:56:47,792 - transitions.core - DEBUG - Initiating transition from state hot_brew to state fermentation...
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Transition condition failed: has_fermentation_complete() does not return True. Transition halted.
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Initiating transition from state hot_brew to state incomplete...
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Executed callbacks before conditions.
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Executed callback before transition.
+2021-02-16 15:56:47,793 - transitions.core - DEBUG - Exiting state hot_brew. Processing callbacks...
+2021-02-16 15:56:47,794 - transitions.core - INFO - Executed callback 'do_on_exit'
+2021-02-16 15:56:47,794 - transitions.core - INFO - Finished processing state hot_brew exit callbacks.
+2021-02-16 15:56:47,794 - transitions.core - DEBUG - Entering state incomplete. Processing callbacks...
+2021-02-16 15:56:47,794 - transitions.core - INFO - Executed callback 'do_on_enter'
+2021-02-16 15:56:47,794 - transitions.core - INFO - Finished processing state incomplete enter callbacks.
+2021-02-16 15:56:47,794 - transitions.core - DEBUG - Executed callback after transition.
+2021-02-16 15:56:47,794 - transitions.core - DEBUG - Executed machine finalize callbacks
